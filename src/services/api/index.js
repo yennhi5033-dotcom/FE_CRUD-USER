@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://overflowing-communication-production-daab.up.railway.app'
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://crud-user-1lmh.onrender.com'
 
 export async function request(path, options = {}) {
   let response
